@@ -36,4 +36,4 @@ Based on each ticket we will branch of development,the branches will be named af
 - Every team member is expected to participate actively in meetings.
 - Every team member is responsible for the quality of the whole project.
 - If after a discussion of 15 to 30 minutes not every team member agrees, the side with the most votes wins.
-
+- When a team member is not able to submit assigned work in due time, it is their responsibility to be realistic and inform the rest of the team as soon as possible so they can decide how to handle the situation.
