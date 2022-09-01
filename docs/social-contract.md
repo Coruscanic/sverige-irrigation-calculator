@@ -24,3 +24,16 @@ Each member of the team will be assigned with a role among the following:
 ### Repository Setup
 The github repository will be used to keep track of the software. We will be working out of the development branch untill 'production'.
 Based on each ticket we will branch of development,the branches will be named after the tickets. Only the Tester is allowed to merge branches to the development branch.
+
+
+### General Rules
+- Every team member will be ontime for meetings unless something urgent happend.
+- Every team member has an equal voice and valuable contribution to the project.
+- When assigned a job/ticket the teammember will take ownership and keep it up to date.
+- When wanting to assign a ticket to a teammember communication is necesary before assigning the ticket.
+- Only the tester of the team will be allowed to merge pullrequests.
+- Every team member keeps his JIRA board updated at all times
+- Every team member is expected to participate actively in meetings.
+- Every team member is responsible for the quality of the whole project.
+- If after a discussion of 15 to 30 minutes not every team member agrees, the side with the most votes wins.
+
