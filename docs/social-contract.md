@@ -16,18 +16,21 @@ Standups:
 
 Sprints:
 - Sprints will last 2 weeks. 
+- One developer is assigned the role of support engineer every sprint.
 - Sprint capacity will be 10 points per developer. 1 point represents 2 hours of work. 
-- Developers must update the team on their progress towards the sprint goal. 
+- All members must update the team on their progress towards the sprint goal.
 - Sprint capacity and length may be revised as the team deems fit.
 
 Planning:
-- Sprints begin with planning. 
+- Sprints begin with planning.
+- Planning lasts 1hr.
 - In planning, the team, lead by the scrum master will define what features are to be delivered and how. 
 - The team estimates story points. 
 - The scrum master gooms and assigns tickets based on developer capacity (grooming is integrated into planning).
 
 Retro:
 - Sprints end with retro. 
+- Retro lasts 30min.
 - In retro the team goes over what went well, what didnt go well, and what the team should do going forward. 
 - Each team member is expected to contribute to retro as much as possible.
 
@@ -37,7 +40,8 @@ Each member of the team will be assigned with a role among the following:
 
 - Scrum Master: The scrum master will lead the team and make sure every member can work in the best conditions. They will also be responsible for keeping track of the team progress and objectives.
 - Data Scientist: The data scientist will be responsible for the dataset(s) and make sure it is accessible and usable for the other team members. They will also make sure that the data is used in a meaningful way throughout the project.
-- Developer(s): The developers will be responsible for making components for our program based on their respective tickets and writing test cases
+- Developer(s): The developers will be responsible for making components for our program based on their respective tickets and writing unit tests
+- Support Engineer: The support engineer is responsible for writing integration tests, load testing and accepting user stories. They must approve all tickets. The support engineer is also responsible for maintaining the CI pipeline and repo automation (e.g. git hooks).
 
 In addition to their usual roles, all members of the team are responsible for validating and approving pull requests.
 
@@ -45,7 +49,7 @@ In addition to their usual roles, all members of the team are responsible for va
 ### Repository Setup
 The github repository will be used to keep track of the software. We will be working out of the development branch untill 'production'.
 - Tickets will be implemented in their own branch, with the branch naming scheme as follows: `${feature|bugfix|hotfix|support}/${ticket-number}`
-- Tickets are only merged to master after >=2 PR approvals and no conflicts. Merging is setup to be fast-forward only. Devleopers are responsible for merging their own tickets.
+- Tickets are only merged to master after >=2 PR approvals and no conflicts. The support engineer must approve tickets before they are merged. Merging is setup to be fast-forward only. Developers are responsible for merging their own tickets.
 
 ### General Rules
 - Every team member will be ontime for meetings unless something urgent happend.
