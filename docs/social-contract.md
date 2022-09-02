@@ -37,7 +37,7 @@ Each member of the team will be assigned with a role among the following:
 
 - Scrum Master: The scrum master will lead the team and make sure every member can work in the best conditions. They will also be responsible for keeping track of the team progress and objectives.
 - Data Scientist: The data scientist will be responsible for the dataset(s) and make sure it is accessible and usable for the other team members. They will also make sure that the data is used in a meaningful way throughout the project.
-- Developer(s): The developers will be responsible for making components for our program based on their respective tickets and writing test cases.
+- Developer(s): The developers will be responsible for making components for our program based on their respective tickets and writing test cases
 
 In addition to their usual roles, all members of the team are responsible for validating and approving pull requests.
 
@@ -53,7 +53,7 @@ The github repository will be used to keep track of the software. We will be wor
 - When assigned a job/ticket the team member will take ownership and keep it up to date.
 - There must be clear communication before assigning new stories/tickets to a team member.
 - Developers are responsible for merging their own pull requests.
-- Developers must implement unit and integration tests for their own tickets.
+- Developers must implement unit and integration tests for their own tickets. Unit tests should be written first, before the ticket is implemented.
 - Every team member keeps his JIRA board updated at all times
 - Every team member is expected to participate actively in meetings.
 - Every team member is responsible for the quality of the whole project.
