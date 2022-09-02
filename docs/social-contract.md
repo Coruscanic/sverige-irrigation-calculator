@@ -26,7 +26,7 @@ Planning:
 - Planning lasts 1hr.
 - In planning, the team, lead by the scrum master will define what features are to be delivered and how. 
 - The team estimates story points. 
-- The scrum master gooms and assigns tickets based on developer capacity (grooming is integrated into planning).
+- The scrum master gooms and assigns tickets based on developer capacity (grooming tickets is integrated into planning).
 
 Retro:
 - Sprints end with retro. 
@@ -38,10 +38,25 @@ Retro:
 
 Each member of the team will be assigned with a role among the following:
 
-- Scrum Master: The scrum master will lead the team and make sure every member can work in the best conditions. They will also be responsible for keeping track of the team progress and objectives.
-- Data Scientist: The data scientist will be responsible for the dataset(s) and make sure it is accessible and usable for the other team members. They will also make sure that the data is used in a meaningful way throughout the project.
-- Developer(s): The developers will be responsible for making components for our program based on their respective tickets and writing unit tests
-- Support Engineer: The support engineer is responsible for writing integration tests, load testing and accepting user stories. They must approve all tickets. The support engineer is also responsible for maintaining the CI pipeline and repo automation (e.g. git hooks).
+Scrum Maste
+- The scrum master will lead the team and make sure every member can work in the best conditions.
+- They will also be responsible for keeping track of the team progress and objectives.
+
+Data Scientist
+- The data scientist will be responsible for the dataset(s) and make sure it is accessible and usable for the other team members. 
+- They will also make sure that the data is used in a meaningful way throughout the project. 
+- They assume the role of a developer when they have no outstanding work.
+
+Support Engineer
+- The support engineer is responsible for writing integration tests, load testing and acceptance (coordinating with scrum master). 
+- They must approve all tickets. 
+- The support engineer is also responsible for maintaining the CI pipeline and repo automation (e.g. git hooks). 
+- One developer is assigned this role every sprint.
+
+Developer(s):
+- The developers will be responsible for making components for our program based on their respective tickets
+- The developers must write unit tests for their tickets
+- The developers must merge their PR once theres no conflicts, unit tests pass, and approved by the support engineer + 1 other.
 
 In addition to their usual roles, all members of the team are responsible for validating and approving pull requests.
 
@@ -63,3 +78,5 @@ The github repository will be used to keep track of the software. We will be wor
 - Every team member is responsible for the quality of the whole project.
 - If after a discussion of 15 to 30 minutes not every team member agrees, the side with the most votes wins.
 - When a team member is not able to submit assigned work in due time, it is their responsibility to be realistic and inform the rest of the team as soon as possible so they can decide how to handle the situation.
+
+This social contract is subject to change over time as the team deems fit
