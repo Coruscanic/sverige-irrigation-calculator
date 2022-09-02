@@ -15,7 +15,7 @@ Standups:
 - Afterwards, any outstanding issues will be raised in post-standup.
 
 Sprints:
-- Sprints will last 2 weeks. 
+- Sprints will last 2 weeks, beginning on the Monday and ending on the Friday
 - One developer is assigned the role of support engineer every sprint.
 - Sprint capacity will be 10 points per developer. 1 point represents 2 hours of work. 
 - All members must update the team on their progress towards the sprint goal.
@@ -38,7 +38,7 @@ Retro:
 
 Each member of the team will be assigned with a role among the following:
 
-Scrum Maste
+Scrum Master
 - The scrum master will lead the team and make sure every member can work in the best conditions.
 - They will also be responsible for keeping track of the team progress and objectives.
 
